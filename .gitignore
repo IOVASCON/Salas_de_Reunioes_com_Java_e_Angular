@@ -1,0 +1,95 @@
+# Ignore arquivos e diretórios específicos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ignore diretórios de logs
+*.log
+logs
+*.log.*
+*.out
+*.pid
+*.pid.lock
+
+# Ignore arquivos de backup temporários
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Ignore diretórios de IDEs/ambientes de desenvolvimento
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Ignore diretórios e arquivos do Node.js
+node_modules/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore builds e diretórios temporários do Angular
+.angular/
+coverage/
+tmp/
+out-tsc/
+
+# Ignore arquivos relacionados ao TypeScript
+*.tsbuildinfo
+
+# Ignore configurações do Webpack
+*.webpack.*
+
+# Ignore arquivos de cache do Angular
+.cache/
+
+# Ignore arquivos de build do Java/Spring Boot com Gradle
+.gradle/
+build/
+out/
+target/
+
+# Ignore arquivos de configuração do Maven (caso esteja usando)
+.mvn/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Ignore arquivos do Gradle Wrapper
+gradlew
+gradlew.bat
+gradle-wrapper.jar
+gradle-wrapper.properties
+
+# Ignore configurações específicas do Eclipse/IDEA para projetos Java
+.classpath
+.project
+.settings/
+bin/
+
+# Ignore arquivos gerados por testes
+test-output/
+surefire-reports/
+test-results/
+
+# Ignore arquivos de ambiente
+.env
+
+# Ignore arquivos do H2 Console ou base de dados local
+*.h2.db
+*.mv.db
+
+# Ignore arquivos relacionados ao Git
+*.orig
+
+# Arquivos e imagens permitidos
+!*.png
+!*.PNG
+!*.pdf
+
+# Ignore arquivos de chave SSH ou chaves privadas (certifique-se de que não suba acidentalmente)
+*.pem
+*.key

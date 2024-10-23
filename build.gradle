@@ -1,0 +1,39 @@
+plugins {
+    id 'org.springframework.boot' version '3.3.4'
+    id 'io.spring.dependency-management' version '1.1.4'
+    id 'java'
+}
+
+group = 'com.iov'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '17'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // Dependências do Spring Boot Web
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+
+    // Dependência para Spring Data JPA
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+
+    // Banco de dados H2
+    runtimeOnly 'com.h2database:h2'
+
+    // Validação com Hibernate Validator (implementação da Jakarta Validation API)
+    implementation 'org.hibernate.validator:hibernate-validator:8.0.0.Final'
+    implementation 'jakarta.validation:jakarta.validation-api:3.0.2'
+
+    // Dependências para testes
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+}
+
+springBoot {
+    mainClass = 'com.iov.ControleSalasReunioesApplication'
+}
+
+test {
+    useJUnitPlatform()
+}
