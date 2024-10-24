@@ -1,50 +1,50 @@
 # Ignorar arquivos e pastas do projeto Angular na pasta angular-app
-angular-app/node_modules/
-angular-app/dist/
-angular-app/tmp/
-angular-app/.angular/cache
-angular-app/.angular/*cache
-angular-app/npm-debug.log*
-angular-app/yarn-debug.log*
-angular-app/yarn-error.log*
+/angular-app/node_modules/
+/angular-app/dist/
+/angular-app/tmp/
+/angular-app/.angular/cache
+/angular-app/.angular/*cache
+/angular-app/npm-debug.log*
+/angular-app/yarn-debug.log*
+/angular-app/yarn-error.log*
 
 # Ignorar logs e arquivos temporários
 *.log
 *.tmp
 *.bak
 
-# Ignorar IDE e editores
-.idea/
-.project
-.classpath
-.vscode/
-.history/
+# Ignorar pastas e arquivos de IDEs e editores
+/.idea/
+/.project
+/.classpath
+/.vscode/
+/.history/
 
 # Ignorar arquivos de build do Gradle e Maven
-.gradle/
-build/
-gradle/
-gradlew
-gradlew.bat
-gradle-wrapper.jar
-gradle-wrapper.properties
+/.gradle/
+/build/
+/gradle/
+/gradlew
+/gradlew.bat
+/gradle-wrapper.jar
+/gradle-wrapper.properties
 
 # Ignorar outros artefatos de sistema ou configuração
-.DS_Store
-Thumbs.db
+/.DS_Store
+/Thumbs.db
 
 # Ignorar arquivos de ambiente
-.env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+/.env
+/.env.local
+/.env.development.local
+/.env.test.local
+/.env.production.local
 
-# Arquivos e imagens permitidos
+# Permitir arquivos e imagens específicos
 !*.png
 !*.PNG
 !*.pdf
 
-# Ignore arquivos de chave SSH ou chaves privadas (certifique-se de que não suba acidentalmente)
+# Ignorar arquivos de chave SSH ou chaves privadas
 *.pem
 *.key
