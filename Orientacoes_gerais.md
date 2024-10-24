@@ -1,4 +1,4 @@
-# Etapas Concluídas
+# Etapas do Projeto
 
     Criação da Estrutura de Diretórios e Arquivos:
         Implementamos a estrutura de pastas e arquivos necessária para o projeto, substituindo corretamente as pastas antigas e adaptando o projeto para utilizar Gradle como gerenciador de build, em vez de Maven, como foi no projeto original.
